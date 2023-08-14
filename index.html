@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Favi Icon Image -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/myPortfolio/favicon_io (1)/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/myPortfolio/favicon_io (1)/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/myPortfolio/favicon_io (1)/"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
+    <!-- Favi Icon Image ENDS-->
+
+    <title>AKSHAT AGRAWAL</title>
+
+    <!-- custom style .css file -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/8908123486.js" crossorigin="anonymous"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Anton&family=Josefin+Sans:wght@300&family=Lexend+Deca:wght@200&family=Livvic&display=swap" rel="stylesheet">
+
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  </head>
+  <body>
+    <div id="header">
+      <div class="container">
+        <nav>
+          <img src="images/logo.png" class="logo" alt="This is logo" />
+          <ul id="sidemenu">
+            <li data-aos="flip-up" data-aos-duration="2000"><a href="#header" >Home</a></li>
+            <li data-aos="flip-up" data-aos-duration="2000"><a href="#about">About</a></li>
+            <li data-aos="flip-up" data-aos-duration="2000"><a href="#certificate">Certification</a></li>
+            <li data-aos="flip-up" data-aos-duration="2000"><a href="#projects">Projects</a></li>
+            <li data-aos="flip-up" data-aos-duration="2000"><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-times" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="headText" data-aos="fade-up-right" >
+          <p >FULL STACK DEVELOPER</p>
+          <h1>Hi, I'm <br>Akshat Agrawal</h1>
+        </div>
+      </div>
+    </div>
+
+    <!-- ABOUT SECTION -->
+
+    <div id="about">
+      <div class="container" data-aos="fade-down"
+      data-aos-easing="linear"
+      data-aos-duration="1500">
+        <div class="row">
+          <div class="col1">
+            <img src="images/mypic.jpg" alt="" />
+          </div>
+          <div class="col2" >
+            <h1 class="title">About Me</h1>
+            <p>
+              Eager to pursue a dynamic role in a progressive organization that
+              provides an opportunity to amplify my knowledge and leverage
+              skills for organizational growth. Proficient in intricate
+              problem-solving, equipped with a highly analytical and driven
+              mindset. Committed to producing flawless code, dedicated to
+              realizing ambitious development milestones within timelines.
+            </p>
+            <div class="tabTitle">
+              <p class="tabLink activeLink" onclick="openTab('education')">EDUCATION</p>
+              <p class="tabLink" onclick="openTab('experience')">EXPERIENCE</p>
+              <p class="tabLink" onclick="openTab('skills')">SKILLS</p>
+            </div>
+            <div class="tabContents active1" id="education" data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine">
+              <ul>
+                <li>
+                  <span>Dec 2020 - June 2024 (Expected) </span><br /><p>Bachelor of
+                  Technology (B.Tech. CSBS) at Bharati Vidyapeeth Deemed to Be
+                  University Department of Engineering & Technology, Navi Mumbai <br> <li>● 9.5 GPA/CGPA</li> <li>● Sports Co-Secretary, 2021 to 2022</li> </p> 
+                </li>
+                <li>
+                  <span>June 2018 - June 2020 </span><br /> <p> (HSC - 12th) at
+                  Chandrabhan Sharma College of Arts, Science and Commerce, Mumbai
+                  <li>● Final Grade: 64.46% </li></p> 
+                </li>
+                <li>
+                  <span>June 2018 </span><br /> <p> (SSC - 10th) at
+                  St. Joseph High School & Junior College Kalamboli, Navi Mumbai
+                  <li>● Final Grade: 79.60% </li></p>
+                </li>
+              </ul>
+            </div>
+            <div class="tabContents" id="experience">
+              <ul>
+                <li>
+                  <span>June 2023 - Present</span><br /> <p>Full Stack Developer at
+                  Red Fiber, Navi Mumbai</p>
+                </li>
+                <li>
+                  <span>July 2023</span><br /> <p>Web Development Intern at
+                  LetsGrowMore</p>
+                </li>
+              </ul>
+            </div>
+            <div class="tabContents" id="skills">
+              <ul>
+                <li>
+                  <span>Web Technologies:</span><br /> <p>HTML, CSS, JavaScript,
+                  React, jQuery, Bootstrap, PHP</p>
+                </li>
+                <li><span>Databases:</span><br /><p>MySQL, MongoDB</p></li>
+                <li>
+                  <span>Soft Skills:</span><br /><p>Critical Thinking, Team
+                  Collaboration, Time management</p>
+                </li>
+                <li>
+                  <span>Extra Skills:</span><br /><p>Fluency in C, C++ & Networking
+                  Knowledge</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Certification -->
+
+    <div id="certificate">
+      <div class="container" >
+        <h1 class="title">My Certifications</h1>
+        <div class="certificationsList">
+          <div class="certif">
+            <h2>FULL STACK DEVELOPER</h2>
+            <p>IBM Full Stack Developer Professional Certificate</p>
+            <a href="https://www.coursera.org/account/accomplishments/professional-cert/68HDB53ZXATK?utm_source=link&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=prof" target="_blank"><img src="images/certificate1.jpeg" alt="This is Certificate 1"></a>
+          </div class="certif">
+          <div>
+            <h2>FRONT-END DEVELOPMENT</h2>
+            <p>Complete JavaScript with HTML5, CSS5</p>
+            <a href="https://www.udemy.com/certificate/UC-69fe8006-68e0-434a-a03e-88e37e338cc0/" target="_blank"><img src="images/certificate2.jpeg" alt="This is Certificate 1"></a>
+          </div>
+          <div class="certif">
+            <h2>WEB DEVELOPMENT</h2>
+            <p>Web Design & Development</p>
+            <a href="https://www.udemy.com/certificate/UC-54d92c64-074b-48e2-8ddd-cf9c466ce0a1/" target="_blank"><img src="images/certificate6.jpg" alt="This is Certificate 1"></a>
+          </div>
+          <div class="certif">
+            <h2>C++</h2>
+            <p>Complete Introduction to C++ Programming</p>
+            <a href="https://www.udemy.com/certificate/UC-dc9011ff-5d5b-477d-8949-6230cefb826b/" target="_blank"><img src="images/certificate3.jpeg" alt="This is Certificate 1"></a>
+          </div>
+          <div class="certif">
+            <h2>NETWORKING</h2>
+            <p>Networking Essentials</p>
+            <a href="" target="_blank"><img src="images/certificate4.jpg" alt="This is Certificate 1"></a>
+          </div>
+          <div class="certif">
+            <h2>CYBER SECURITY</h2>
+            <p>CyberOps Associate</p>
+            <a href="https://www.credly.com/badges/6c406dd8-df42-4f05-a492-d456666f70ac/linked_in_profile" target="_blank"><img src="images/certificate5.jpg" alt="This is Certificate 1"></a>
+          </div>
+        </div>
+    </div>
+
+
+    <!-- Projects -->
+    <div id="projects">
+      <div class="container" data-aos="fade-zoom-in"
+      data-aos-easing="ease-in-back"
+      data-aos-delay="300"
+      data-aos-offset="0">
+        <h1 class="title">My Work</h1>
+        <div class="workList">
+          <div class="work">
+            <img src="images/work1.jpg" alt="">
+            <div class="lay">
+              <h3>BLOG WEBSITE</h3>
+              <a href="https://github.com/akki-2002/MyBlogG" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work2.jpg" alt="">
+            <div class="lay">
+              <h3>CALCULATOR</h3>
+              <a href="https://github.com/akki-2002/CALCULATOR" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work3.jpg" alt="">
+            <div class="lay">
+              <h3>BOOK STORE WEBSITE</h3>
+              <a href="https://github.com/akki-2002/BookStoreWebsite" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+         
+          <div class="work">
+            <img src="images/work5.png" alt="">
+            <div class="lay">
+              <h3>TO-DO LIST</h3>
+              <a href="https://github.com/akki-2002/TO-DO-LIST" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contactLeft">
+            <h1 class="title">Contact Me</h1>
+            <p><a href="mailto:agrawalakshat582@gmail.com? subject=subject text"><i class="fa-solid fa-paper-plane"></a></i>agrawalakshat582@gmail.com</p>
+            <p><a href="https://api.whatsapp.com/send?phone=918976616411"><i class="fa-solid fa-phone"></a></i>+91 8976616411</p>
+            <div class="socIcons">
+              <a href="https://www.linkedin.com/in/akshat-agrawal-282830205/" target="_blank"><i class="fa-brands fa-linkedin-in"></i></a>
+              <a href="https://github.com/akki-2002" target="_blank"><i class="fa-brands fa-square-github"></i></a>
+              <a href="https://twitter.com/Akshat_2002" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            </div>
+            <a href="Akshat Agrawal - CSBS.pdf" download class="btn">Download CV</a>
+          </div>
+          <div class="contactRight">
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Enter Your Name" required>
+              <input type="email" name="Email" placeholder="Your Email" required>
+              <textarea name="Message" rows="6" placeholder="Write Your Message" required></textarea>
+              <button type="submit" class="btn">SUBMIT</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+        <a href="#header" class="topBtn"><i class="fa-solid fa-arrow-up"></i></a>
+      </div>
+      
+    </div>
+
+    <div id="copyRight">
+      <p>Copyright &copy; Akshat. | 2023 </p>
+    </div>
+
+
+    <!-- JS file -->
+    <script src="main.js"></script>
+
+
+    <!-- AOS animation  -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Google form -->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Abel&family=Anton&family=Josefin+Sans:wght@300&family=Lexend+Deca:wght@200&family=Livvic&display=swap');
+    </style>
+
+    <script>
+      // This is for google form
+
+      // https://docs.google.com/spreadsheets/d/1OM6Iuwmz5Q34-FpxfFv8nHW4JmXAkGjMPR8IYu0JMak/edit#gid=0
+
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbxWyGsqVWbkptL_cN5Ri7vmfwR6Fm3dgAjcprcoL0TJUNkkSwGCeFcIFGgeyr86XGLrgg/exec'
+      const form = document.forms['submit-to-google-sheet']
+
+      const msg = document.getElementById("msg")
+    
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => {
+            msg.innerHTML = "Message Sent Successfully"
+            setTimeout(function(){
+              msg.innerHTML = ""
+            }, 5000)
+            form.reset()
+          })
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
