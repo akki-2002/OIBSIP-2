@@ -1,2 +1,2 @@
-# akshatPortfolio
+# AkshatPortfolio
 My Portfolio Website
